@@ -5,7 +5,7 @@ on:
             debug:
                 type: boolean
                 default: false
-run-name: 06 - Contexts | DEBUG - ${{ inputs.debug }}
+run-name: 06 - Contexts | DEBUG - ${{ inputs.debug }} && 'ON' || 'OFF'
 env:
     MY_WORKFLOW_VAR: 'workflow'
     MY_OVERWRITTEN_VAR: 'workflow'
